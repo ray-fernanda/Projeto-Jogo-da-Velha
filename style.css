@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,300;1,400;1,500&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+#mostrador {
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    width: 330px;
+    height: 50px;
+    padding: 15px;
+    background: linear-gradient(to bottom, #1A79B1, #83DFEE);
+    border-radius: 10px;
+}
+
+#mostrador p {
+    float: left; 
+    margin-right: 10px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.card {
+    width: 300px;
+    height: 260px;
+    margin: auto;
+    background: linear-gradient(to bottom, #1A79B1, #83DFEE);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.espaco {
+    width: 80px;
+    height: 80px;
+    border: 5px solid white;
+    float: left;
+    text-align: center;
+    border-left: none;
+    border-top: none;
+}
+
+.espaco-c {
+    border-bottom: none;
+}
+
+.espaco3 {
+    border-right: none;
+}
+
+.espaco img {
+    width: 60px;
+    height: 60px;
+    margin-top: 10px;
+}
+
+.tabuleiro {
+    width: 252px;
+    height: 252px;
+    margin: auto;
+}
